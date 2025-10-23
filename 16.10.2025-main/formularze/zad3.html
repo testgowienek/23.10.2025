@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Zadanie 3 - Formularz zamówienia biletów</title>
+</head>
+<body>
+
+
+
+<form>
+  Imię i nazwisko: <input type="text" name="imie_nazwisko" required><br><br>
+
+  Liczba biletów (1–10): <input type="number" name="liczba_biletow" min="1" max="10" step="1" value="1"><br><br>
+
+  Rodzaj biletu:<br>
+  <input type="radio" name="rodzaj" value="normalny" checked> Normalny<br>
+  <input type="radio" name="rodzaj" value="ulgowy"> Ulgowy<br><br>
+
+  Dodatkowe opcje:<br>
+  <input type="checkbox" name="vip"> Miejsce VIP<br>
+  <input type="checkbox" name="program"> Program pamiątkowy<br><br>
+
+  Data wydarzenia: <input type="date" name="data"><br><br>
+
+  <input type="button" value="Oblicz kwotę">
+  <input type="submit" value="Zamów bilety">
+</form>
+
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Zadanie 4 - Formularz zamówienia koszulki szkolnej</title>
+</head>
+<body>
+
+<hr>
+
+<form>
+  Imię i nazwisko: <input type="text" name="imie_nazwisko" required><br><br>
+
+  Liczba koszulek (1–500): <input type="number" name="ilosc" min="1" max="500" step="10" value="1"><br><br>
+
+  Rozmiar koszulki:<br>
+  <input type="radio" name="rozmiar" value="S" checked> S<br>
+  <input type="radio" name="rozmiar" value="M"> M<br>
+  <input type="radio" name="rozmiar" value="L"> L<br>
+  <input type="radio" name="rozmiar" value="XL"> XL<br><br>
+
+  Wybierz kolor koszulki: <input type="color" name="kolor"><br><br>
+
+  Data odbioru: <input type="date" name="data"><br><br>
+
+  <input type="checkbox" name="nadruk"> Chcę nadruk z imieniem<br><br>
+
+  <input type="button" value="Podgląd zamówienia">
+  <input type="submit" value="Złóż zamówienie">
+</form>
+
+</body>
+</html>
+
+<hr>
+
+
+
+
+</body>
+</html>
