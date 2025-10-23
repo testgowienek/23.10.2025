@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MAPA POLSKI</title>
+
+<h2>Formularze w HTML</h2>
+<hr>
+<form action="mailto:jan.kowalski@gmai.com?subject=formularz" method="post">
+    <input type="text" name="imie" value="imie" size="30" maxlength="30">
+    <br>
+    <input type="password" name="haslo" size="30">
+    <input type="checkbox" name="opcje">Zgadzam się na przetwarzanie moich danych
+    <h3>Wykształcenie:</h3>
+    <input type="radio" value="podstawowe" name="wyksztalcenie">Podstawowe<br>
+    <input type="radio" value="srednie" name="wyksztalcenie">Srednie<br>
+    <input type="radio" value="wyzsze" name="wyksztalcenie">Wyzsze<br>
+    Wybierz plik: <input type="file" name="plik">
+    <input type="submit" name="wyslij" value="przeslij">
+    <input type="reset" name="reset">

@@ -1,0 +1,64 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.kontener{
+    width: 1000px;
+    border: 1px solid rgb(13, 124, 235);
+    padding: 15px;
+}
+
+.tytulTabeli{
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.nawigacja, a{
+    margin-top: 25px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+span{
+background-color: rgb(194, 194, 194);
+}
+
+.sekcjaTabela{
+    margin-top: 15px;
+}
+
+.naglowek{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(88, 15, 156);
+    text-align: left;
+    align-items: center;
+    color: aliceblue;
+    
+}
+
+.naglowekh1{
+    margin-left: 15px;
+
+}
+
+
+th, td, tr {
+    border: 1px solid lightslategray;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+table {
+    border: 1px solid lightslategray;
+    border-collapse: collapse;
+    margin: 55px;
+    font-size: 20px;
+}
